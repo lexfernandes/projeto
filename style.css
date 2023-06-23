@@ -25,6 +25,7 @@
 body * {
   font-family: "Inter", sans-serif;
   color: var(--text-color);
+  height: 100vh;
 }
 body {
   background-image: var(--bg-url);
@@ -33,7 +34,7 @@ body {
   background-size: cover;
 }
 #container {
-  width: 100%x;
+  width: 100%;
   max-width: 588px;
   height: 712px;
   margin: 56px auto 0px;
@@ -69,7 +70,7 @@ body {
   transform: translateY(-50%);
   top: 50%;
 }
-.light #switch button{
+.light #switch button {
   right: 0;
   left: initial;
 }
@@ -127,4 +128,12 @@ ul li a:hover {
 footer {
   padding: 24px;
   text-align: center;
+}
+@media (min-width: 700px) {
+  :root {
+    --bg-url: url(./assets/bg-desktop.jpg);
+  }
+  .light {
+    --bg-url: url(./assets/bg-desktop-light.jpg);
+  }
 }
