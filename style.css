@@ -45,7 +45,8 @@ body {
   padding: 24px;
 }
 #profile img {
-  width: 112px;
+  width: 200px;
+  border-radius: 40%;
 }
 #profile p {
   font-weight: 500;
