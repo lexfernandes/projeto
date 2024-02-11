@@ -18,7 +18,7 @@ Programa exclusivo e gratuito, promovido pela Rocketseat para ensino de tecnolog
 <br>
 
 <p align="center">
-  ![Portifolio](./assets/site%20bikecraft.png)
+  ![Portifolio](./assets/site.png)
 </p>
 
 ## 🚀 Tecnologias
